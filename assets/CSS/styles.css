@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+/*estilos para boton de menú*/
+.icono-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+    color: aliceblue;
+} 
+.icono-menu i{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+/*estulos para contenedor de menú*/
+.cont-menu{
+    background-color: rgb(162, 163, 175);
+    box-shadow: 2px 0px 5px 2px rgb(0, 0, 0);
+    width: 400px;
+    height:100vh ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease; 
+}
+/*estilos para aguregar javascript*/
+.active{
+    transform: translate(-600px);
+}
+.opacity{
+    background-color: #1D3354;
+    transition: all 0.5s ease;
+}
+/*estilos para el listado del menú*/
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+    background-color: #1D3354;
+    color: white;
+}
+.social{
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.social li{
+    list-style: none;
+}
+
+.social li a{
+    display: inline-block;
+    filter: invert(1);
+    margin-right: 80px;
+    transform: scale(5.0);
+    transition: 0,5s;
+    color: white;
+}
+
+.social li a:hover{
+    transform: scale(4.5); translateY(-10px);
+}
+body{
+   
+    background: linear-gradient(to bottom, #1D3354, rgb(110, 132, 153));
+    font-family: 'Poppins', sans-serif;
+}
+.mi_foto{
+    width: 324px;
+    height: 324px;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 200px;
+}
+h1{
+    width: 449px;
+    height: 41px;
+    margin-top: 50px;
+    margin-left: 445px;
+    color: white;
+}
+
+legend{
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+.parrafosobremi{
+    color: white;
+}
+
+.elefante, {
+    display: inline-block;
+}
+.elefante{
+    width: 147px;
+    height: 147px;
+    border-radius: 200px;
+    margin-left: 550px;
+    margin-top: 50px; 
+}
+.massobremi a{
+    color: white;
+    margin-left: 530px;
+    background-color: #1D3354;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.2;
+}
+.massobremi a:hover{
+    letter-spacing: 3px;
+}
+.descripcion1{
+    color: white;
+    margin-left: 460px;
+}
+.imagenproyectos{
+    vertical-align: middle;
+}
+.imagenproyectos{
+    width: 147px;
+    height: 147px;
+    border-radius: 200px;
+    margin-left: 550px;
+    display: inline-block;
+}
+.proyectos a{
+    color: white;
+    margin-left: 537px;
+    background-color: #1D3354;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.2;
+    
+}
+.proyectos a:hover{
+    letter-spacing: 3px;
+}

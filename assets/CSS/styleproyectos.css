@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/*estilos para boton de menú*/
+.icono-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+    color: aliceblue;
+} 
+.icono-menu i{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+/*estulos para contenedor de menú*/
+.cont-menu{
+    background-color: rgb(162, 163, 175);
+    box-shadow: 2px 0px 5px 2px rgb(0, 0, 0);
+    width: 400px;
+    height:100vh ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease; 
+}
+/*estilos para aguregar javascript*/
+.active{
+    transform: translate(-600px);
+}
+.opacity{
+    background-color: #1D3354;
+    transition: all 0.5s ease;
+}
+/*estilos para el listado del menú*/
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+    background-color: #1D3354;
+    color: white;
+}
+body{
+   
+    background: linear-gradient(to bottom, #1D3354, rgb(110, 132, 153));
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 500px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top:30px;
+}
+fieldset{
+    background-color: rgb(110, 132, 153);
+    color: aliceblue;
+}
+
