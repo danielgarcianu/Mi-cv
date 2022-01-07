@@ -57,17 +57,3 @@ body{
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
 }
-img{
-    width: 500px;
-    height: 300px;
-    margin-left: 350px;
-    margin-top:30px;
-}
-fieldset{
-    background-color: rgb(110, 132, 153);
-    color: aliceblue;
-}
-legend{
-    color: rgb(255, 106, 7);
-    font-size: 20px;
-}
